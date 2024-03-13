@@ -64,6 +64,10 @@ abstract class PaymentService
      */
     protected $gatewayFactory;
 
+    public $logger;
+
+    public $exceptionLogger;
+
     /**
      * @param Payment $payment the payment instance
      */
